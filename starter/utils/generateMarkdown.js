@@ -1,7 +1,7 @@
 // function to generate markdown for README
 function generateDescription(description) {
   return `
-    ## Description
+  ## Description
     ${description}
     `;
 }

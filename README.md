@@ -1,14 +1,11 @@
-# Module 11 Challenge: Professional README Generator
+# My Professional README Generator titled:
+# my-pro-readme-generator application
 
-## Your Task
+## The Task
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. 
+The task was to create an application that would assist in creating a professional readme.md file for a github repository. This would be in the form of a command line application that dynamically generates a professional README file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). The [Good README Guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) was reviewed as a reminder of everything that a high-quality, professional README should contain.
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
-
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README Guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) as a reminder of everything that a high-quality, professional README should contain. 
-
-The application will be invoked by using the following command:
+The application is invoked by using the following command:
 
 ```bash
 node index.js
@@ -20,9 +17,9 @@ node index.js
 
 ## Acceptance Criteria
 
-* Create a command-line application that accepts user input.
+* A command-line application that accepts user input.
   * When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
-    * The title of my project 
+    * The title of the project 
     * Sections entitled:
       * Description 
       * Table of Contents 
@@ -33,59 +30,15 @@ node index.js
       * Tests 
       * Questions
     * When a user enters the project title then it is displayed as the title of the README
-    * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
-    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-    * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
-
-## Getting Started
-
-Here are some guidelines to help you get started:
-
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
-
-## Grading Requirements
-
-This Challenge is graded based on the following criteria: 
-
-### Deliverables: 20%
-
-* A sample README generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Technical Acceptance Criteria: 55%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-### Repository Quality: 25%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
+    * When a user enters various entries for description, installation instructions, usage information, contribution guidelines, and test instructions, this information is added, titled after the relevant sections of the README the user has filled in information for.
+    * When a user chooses a license for their application from a list of options then a badge for that license is added at the top of the README and a notice is added to the section of the README entitled **License** that details which license the application is covered under
+    * When a user enters their GitHub username and their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions at the email address
+    * When a user clicks on the links in the **Table of Contents** they are taken to the corresponding section of the README of which they clicked
 
 
-## Review
+## Sample Video of walk through of application
 
-You are required to submit the following for review:
+## Link to Repository
 
-* A walkthrough video demonstrating the functionality of the application.
+## Example Readme generated by the app can be found in the link below:
 
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
