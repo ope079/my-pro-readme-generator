@@ -29,8 +29,6 @@ function generateMarkdown(data) {
 
   [License](#licence)
 
-  This item is covered under the ${data.license} license.
-
   [Contribution](#contribution)
 
   [Tests](#tests)
@@ -45,7 +43,8 @@ function generateMarkdown(data) {
     ${data.usage}
 
   ## License 
-    ${data.license}
+    ${data.license} license.
+    This item is covered under the ${data.license} license.
 
   ## Contribution 
     ${data.contribution}
